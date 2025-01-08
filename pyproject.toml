@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gazer-grazer"
+version = "0.1.0"
+description = "Gazer Grazer"
+authors = ["Lennert Jansen <lennert@neena.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
