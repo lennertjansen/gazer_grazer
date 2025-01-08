@@ -1,2 +1,2 @@
-# gazer_grazer
+# Gazer Grazer
 Stargazer Crawler
