@@ -1,12 +1,16 @@
 [tool.poetry]
 name = "gazer-grazer"
 version = "0.1.0"
-description = "Gazer Grazer"
+description = "A GitHub Stargazer scraper and lead generation pipeline for Airweave."
 authors = ["Lennert Jansen <lennert@neena.io>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+firecrawl = "^1.9.0"
+flake8 = "^7.1.1"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.0"
 
 [tool.poetry.group.dev.dependencies]
 

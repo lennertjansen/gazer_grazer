@@ -35,3 +35,6 @@ ENV/
 .coverage
 .pytest_cache/
 htmlcov/
+
+# Environment
+.env
