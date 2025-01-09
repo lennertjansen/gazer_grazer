@@ -2,7 +2,7 @@ import os
 import requests
 
 GITHUB_API_URL = "https://api.github.com"
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "your_github_token_here")
+GITHUB_TOKEN = os.getenv("GITHUB_API_TOKEN")
 
 def find_top_llm_ai_projects():
     """
