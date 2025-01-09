@@ -7,11 +7,11 @@ load_dotenv()
 
 # PostgreSQL connection parameters
 DB_PARAMS = {
-    'dbname': os.getenv('POSTGRES_DB', 'gazer_grazer'),
-    'user': os.getenv('POSTGRES_USER', 'postgres'),
-    'password': os.getenv('POSTGRES_PASSWORD', ''),
-    'host': os.getenv('POSTGRES_HOST', 'localhost'),
-    'port': os.getenv('POSTGRES_PORT', '5432')
+    'dbname': os.getenv('POSTGRES_DB'),
+    'user': os.getenv('POSTGRES_USER'),
+    'password': os.getenv('POSTGRES_PASSWORD'),
+    'host': os.getenv('POSTGRES_HOST'),
+    'port': os.getenv('POSTGRES_PORT')
 }
 
 def get_connection():
